@@ -9,41 +9,45 @@
         max-height: 90%;
     }
     h1{
-        color:#fff;
+        color: #181818;
         // background-color: pink;
-        font-size: 53px;
+        font-size: 56px;
         // left: 0%;
         margin: 0;
+        line-height: 53px;
         font-family: "Coolvetica";
         font-weight: 400;
         &::before{
             content: '<h1>';
-            font-family: 'La Belle Aurore';
+            font-family: 'La Belle Aurore', cursive;
             color: #ffd700;
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
-            left: 15px;
+            left: -15px;
             opacity: 0.6;
         }
         &::after{
-            content: '<h1>';
-            font-family: 'La Belle Aurore';
+            content: '<h1/>';
+            font-family: 'La Belle Aurore', cursive;
             color: #ffd700;
             // background-color: pink;
             font-size: 18px;
             position: absolute;
             margin-top: 18px;
-            left: 20px;
+            margin-left: 20px;
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
         }
         img{
-            width : 32px ;
-            margin-left: 20px;
+            width : 120px;
+            
+            margin-top: -45px;
+            margin-bottom: -6%;
+            margin-left: 25px;
             opacity: 0;
             height: auto ;
-            animation: rotateIn 1s linear both;
+            animation: classyAnimation 1.2s ease-in-out both;
             animation-delay: 1.4s ;
         }
     }
@@ -60,7 +64,7 @@
         
     }
     .flat-button{
-        color: #ffd700;
+        color: #333;
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 4px;
@@ -78,3 +82,41 @@
         }
     }
 }
+
+@keyframes classyAnimation {
+    0% {
+      transform: translateX(-20px);
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .gif-container {
+    position: absolute;
+    top: 50%;
+    right: 200px;
+    transform: translateY(-50%);
+  }
+  
+  .gif-container img {
+    width: 450px; /* Adjust the width of the GIF as needed */
+    border-radius: 5px;
+    height: 350px;
+    // opacity: 0; /* Start with 0 opacity for the fade-in effect */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  
+    // box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  .gif-container img.loaded {
+    opacity: 1; /* When the image is fully loaded, change opacity to 1 */
+  }
+  
+  .gif-container:hover img {
+    transform: scale(1.1); /* Hover scaling effect */
+  }
