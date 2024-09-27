@@ -35,29 +35,8 @@ const About = () => {
                     idx={15} />
 
                 </h1>
-                <p>Hey! I’m <strong>Aditya Rajesh Bawangade</strong>, currently in my final year at <strong>IIT Goa</strong>, where I’m studying <strong>Computer Science and Engineering</strong>. My journey so far? A combination of coding, debugging, optimizing, and occasionally surviving on a lot of coffee.</p>
+                <p>Hello, I’m <strong>Aditya Rajesh Bawangade</strong>, a final-year <strong>Computer Science and Engineering</strong> student at <strong>IIT Goa</strong>. I have experience in system optimization, debugging, and software development, having interned at <strong>Siemens EDA</strong>, where I worked on improving performance with data structures like Red-Black trees. I’m also a <strong>Teaching Assistant</strong> for Python, designing problem sets for first-year students. In addition to my academic and professional pursuits, I’ve held leadership roles, including <strong>Placement Coordinator</strong> and <strong>Hostel Council</strong> member. Let’s connect!</p>
 
-        <p>I’ve been fortunate enough to intern with <strong>Siemens EDA</strong>, where I dove deep into system optimization and code analysis. My highlight? Building a Red-Black tree (trust me, it’s cooler than it sounds) that made their system faster and more efficient. Oh, and I also documented everything (future interns, you’re welcome!).</p>
-
-        <p>When I’m not working on projects, I’m helping first-year students tackle <strong>Python</strong> as a <strong>Teaching Assistant</strong>. Designing coding challenges is pretty fun, especially when you get to balance tricky problems with making sure no one ends up completely confused.</p>
-
-        <h2>My Skills</h2>
-        <ul>
-            <li><strong>Programming:</strong> C, C++, Python, Haskell, Assembly (yes, really)</li>
-            <li><strong>Web:</strong> HTML, CSS, JavaScript, React.js (making things look nice online)</li>
-            <li><strong>Hardware:</strong> System Verilog, MIPS Assembly (for the hands-on stuff)</li>
-            <li><strong>Tools:</strong> Vim, Linux, GitHub (just your usual tech toolbox)</li>
-        </ul>
-
-        <p>Somehow, in between coding marathons and debugging, I’ve also managed to take on roles like <strong>Placement Coordinator</strong> and being on the <strong>Hostel Council</strong>. These have taught me how to juggle multiple responsibilities—whether it's organizing job placements or making sure hostel life doesn’t fall apart!</p>
-
-        <h2>A Bit More About Me</h2>
-
-        <p>When I’m not buried in code, I love unwinding by baking. There’s something about making the perfect cake that feels almost as satisfying as debugging a piece of stubborn code. I also dabble in photography and enjoy capturing random little moments (usually sunsets or cool urban vibes).</p>
-
-        <p>If I’m hanging out with friends, you’ll probably find me in the middle of a heated game of <strong>Catan</strong>. Spoiler: I’m not that great at it, but it’s fun anyway. And when stress levels peak (hello, exams!), you can bet there’s a banana close by to keep me going—it’s kind of become my thing.</p>
-
-        <p>So yeah, that’s me in a nutshell. If you ever want to chat about tech, trading recipes, or even challenge me to a board game, I’m all ears!</p>
 
             </div>
 
