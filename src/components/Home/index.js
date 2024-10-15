@@ -9,7 +9,7 @@ import './index.scss';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate') 
     const nameArray = ['R','.', ' ','B','.']
-    const jobArray = ['A',' ','W','E','B',' ' ,'D','E','V','E','L','O','P','E','R','.']
+    const jobArray = ['A',' ','H','O','B','B','Y','I','S','T',' ' ,'D','E','V','E','L','O','P','E','R','.']
     useEffect(() => {
        setTimeout(() => {
         return setLetterClass('text-animate-hover')
